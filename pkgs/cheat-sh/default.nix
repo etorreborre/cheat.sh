@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
     homepage = "https://github.com/chubin/cheat.sh";
     description = "cheat.sh executable";
     platforms = platforms.darwin;
-    architectures = [ "x86" ];
+    architectures = [ "x86" "aarch64" ];
   };
 
 }
